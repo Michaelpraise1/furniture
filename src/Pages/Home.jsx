@@ -8,6 +8,7 @@ import Bys from '../Components/Bys';
 import Hiwsection from '../Components/Hiwsection';
 import Ourgallery from '../Components/Ourgallery';
 import Spinner from '../Components/Spinner';
+import Footer from '../Components/Footer';
 
 // const InspiCollection = () => lazy(() => import ('../Components/InspiCollection'));
 
@@ -27,6 +28,7 @@ const Home = () => {
       <Suspense fallback={<Spinner/>}>
         <Hiwsection/>
       </Suspense>
+      <Footer/>
       
     </div>
   )

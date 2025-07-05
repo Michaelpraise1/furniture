@@ -11,15 +11,15 @@ const Ourgallery = () => {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
           <div className='flex justify-center space-x-5 mt-5'>
-            <button className='space-y-2'>
+            <button className='space-y-2 hover:animate-pulse'>
               <img className=' ' src={img4} alt='img1'/>
               <p>Dinning sets</p>
             </button>
-            <button className='space-y-2'>
+            <button className='space-y-2 hover:animate-pulse'>
               <img className=' '  src={img5} alt='img2'/>
               <p>Living sets</p>
             </button>
-            <button className='space-y-2'>
+            <button className='space-y-2 hover:animate-pulse'>
               <img className=''  src={img6} alt='img3'/>
               <p>Room Set</p>
             </button>

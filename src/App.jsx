@@ -5,6 +5,7 @@ import Home from './Pages/Home'
 import Signin from './Pages/Signin'
 import Signup from './Pages/Signup'
 import Ourgallery from './Components/Ourgallery'
+import Cart from './Pages/Cart'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="signup" element={ <Signup/> }/>
           <Route path="signin" element={<Signin/>}/>
           <Route path="gallery" element={<Ourgallery/>}/>
+          <Route path="cart" element={<Cart/>}/>
           
         </Routes>
        
