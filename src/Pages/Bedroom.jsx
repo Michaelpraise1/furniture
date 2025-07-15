@@ -11,4 +11,4 @@ const Bedroom = () => {
   )
 }
 
-export default Bedroom
+export default Bedroom;

@@ -11,4 +11,4 @@ const Dinning = () => {
   )
 }
 
-export default Dinning
+export default Dinning;
