@@ -6,6 +6,7 @@ import Signin from './Pages/Signin'
 import Signup from './Pages/Signup'
 import Ourgallery from './Components/Ourgallery'
 import Cart from './Pages/Cart'
+import LivingRoom from './Pages/LivingRoom'
 
 
 function App() {
@@ -19,7 +20,8 @@ function App() {
           <Route path="signin" element={<Signin/>}/>
           <Route path="gallery" element={<Ourgallery/>}/>
           <Route path="cart" element={<Cart/>}/>
-          
+          <Route path="living" element={ <LivingRoom/>}/>
+         
         </Routes>
        
       
